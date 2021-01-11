@@ -13,12 +13,12 @@ module.exports = {
 		// new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			title: 'Raster Graphics',
+			title: 'Graphics basics',
 		}),
 	],
 	output: {
 		filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'docs'),
 	},
 	module: {
 		rules: [
