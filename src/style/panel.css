@@ -1,0 +1,19 @@
+.app-panel {
+	background-color: #cecece;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+	height: 64px;
+	display: flex;
+	align-items: center;
+}
+
+.panel-buttons-container {
+	padding: 16px;
+}
+
+.panel-button {
+	cursor: pointer;
+}
+
+.panel-button[disabled] {
+	cursor: default;
+}
